@@ -5,6 +5,10 @@
 }
 body {
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #app {
     height: 100vh;
@@ -125,11 +129,11 @@ body {
         transform: scaleX(-1);
     }
     50% {
-        left: -30%;
+        left: -60%;
         transform: scaleX(1);
     }
     50.1111% {
-        left: -30%;
+        left: -60%;
         transform: scaleX(-1);
     }
     0%{
