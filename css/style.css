@@ -111,6 +111,7 @@ body {
     position: absolute;
     bottom: -22px;
     left: 50%;
+    transform: scaleX(1);
     animation-name: cowAnimation;
     animation-duration: 60s;
     animation-iteration-count: infinite;
@@ -125,6 +126,11 @@ body {
     }
     50% {
         left: -30%;
+        transform: scaleX(1);
+    }
+    50.1111% {
+        left: -30%;
+        transform: scaleX(-1);
     }
     0%{
         left: 120%;
